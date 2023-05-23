@@ -25,7 +25,7 @@ const { chains, provider } = configureChains(
 
 
 const { connectors } = getDefaultWallets({
-  appName: 'My RainbowKit App',
+  appName: 'Education DApp',
   chains,
 });
 
@@ -76,13 +76,6 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               mode="horizontal"
               key={router.pathname}
               defaultSelectedKeys={[router.pathname]}
-              // items={new Array(15).fill(null).map((_, index) => {
-              //   const key = index + 1;
-              //   return {
-              //     key,
-              //     label: `nav ${key}`,
-              //   };
-              // })}
               items={loopMenuItem(asideMenuConfig)}
               onClick={(info) => {
                 router.push(info.key)
@@ -92,7 +85,6 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               style={{
                 display: 'flex',
                 marginTop: 5,
-                // alignItems: 'center',
                 justifyContent: 'right',
               }}
             >

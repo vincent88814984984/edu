@@ -23,7 +23,6 @@ const Person: React.FC = () => {
     const signer = provider.getSigner();
     console.log(signer);
     const contract = new ethers.Contract(personContractAddress, personContractABI, signer);
-    console.log(contract);
     const run = async () => {
         const res = await contract.getPerson();
         setRecord(res);

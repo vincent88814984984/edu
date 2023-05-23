@@ -1,4 +1,3 @@
-import { GetContract } from "../util";
 import { CSSProperties, useEffect, useState } from "react";
 import { Card } from "antd";
 import { useRouter } from 'next/router';

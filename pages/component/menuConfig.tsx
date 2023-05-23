@@ -22,6 +22,11 @@ const asideMenuConfig: menuType[] = [
     key: '/person',
     icon: UserOutlined,
   },
+  // {
+  //   label: '课程中心',
+  //   key: '/person',
+  //   icon: UserOutlined,
+  // },
 ];
 
 export { asideMenuConfig };
