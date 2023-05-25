@@ -18,7 +18,7 @@ export const AddLesson: FC<LessonType> = ({ visible, hideModal }) => {
     // }
     return (
         <div>
-            <Modal title={"加入课程"} okType="default" okText='确定' cancelText='取消' open={visible} onCancel={hideModal}>
+            <Modal title={"加入课程"} width={1000} okType="default" okText='确定' cancelText='取消' open={visible} onCancel={hideModal}>
                 <Form form={form}>
                     <Form.Item label='课程编号'>
                         <Input />
