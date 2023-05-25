@@ -1,6 +1,5 @@
-export const personContractAddress= "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853";
-// export const personContractAddress= "0x850EC3780CeDfdb116E38B009d0bf7a1ef1b8b38";
-export const personContractABI= [
+export const personContractAddress = "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853";
+export const personContractABI = [
     {
         "inputs": [
             {
