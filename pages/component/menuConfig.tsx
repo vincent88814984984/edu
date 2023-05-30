@@ -1,4 +1,4 @@
-import {SmileOutlined, HeartOutlined, HomeOutlined, UserOutlined} from '@ant-design/icons';
+import {SmileOutlined, HeartOutlined, HomeOutlined, UserOutlined, ShopOutlined, CloudServerOutlined} from '@ant-design/icons';
 
 export type menuType = {
     label: string;
@@ -26,6 +26,16 @@ const asideMenuConfig: menuType[] = [
         label: '个人中心',
         key: '/person',
         icon: UserOutlined,
+    },
+    {
+        label: '资源广场',
+        key: '/market',
+        icon: ShopOutlined
+    },
+    {
+        label: '我的文件',
+        key: '/files',
+        icon: CloudServerOutlined
     },
 ];
 
